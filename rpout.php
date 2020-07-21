@@ -20,7 +20,7 @@ class Relatorio {
 	public $inicioRodape;
 	public $contLinha;
 
-	function __construct($formato = "RETRATO", $diretorio="",$arquivo="",$ext="", $mode="w", $empresa="", $nomeRelatorio = "", $consulta = NULL){
+	function __construct($formato = "RETRATO", $diretorio="",$arquivo="",$ext="", $mode="w", $empresa="", $nomeRelatorio = "Nomerelatorio", $consulta = NULL){
 		$this->empresa 			= $empresa;
 		$this->nomeRelatorio 	= $nomeRelatorio;
 		$this->diretorio 		= $diretorio;
